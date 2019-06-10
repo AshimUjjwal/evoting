@@ -112,7 +112,7 @@
  <head>
 
   
- <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.min.css">
+ <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.css">
  <script src="https://www.google.com/recaptcha/api.js?render=6LfphZYUAAAAAHuw9ZHnzGyWOmICTUUhP_7p-fQ6"></script>
 
  <title>|| SIGN UP ||</title>
@@ -120,7 +120,7 @@
  </head>
 
  <body>
-
+ <script src = "js/bootstrap.js" type = "text/javascript"></script>
  <a href= "index.php" target= "_self" alt= "vote" title= "Home">
  <center><img src="image/header1.jpg" alt="evoting"  title="Home"></center></a>
 
@@ -139,7 +139,7 @@
 
           
           
-    <script src = "js/bootstrap.min.js" type = "text/javascript"></script>
+    
  
 
  
@@ -149,7 +149,7 @@
 
 </div>
  
-<form method="post" action="registration.php" enctype="multipart/form-data" autocomplete= "on">
+<center><form method="post" action="registration.php" enctype="multipart/form-data" autocomplete= "on" >
  
  <div class="form-group">
 
@@ -159,7 +159,8 @@
 
 </div>
 
-
+ 
+<div class="form-group">
 <label for="last">Last Name:</label>
     
     <input type="text" class="form-control" name="lname" required placeholder = "Enter Your Last Name">
@@ -221,13 +222,13 @@
 
 <div class="form-group form-check">
     <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" name = "conditions">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
+    <input class="form-check-input" type="checkbox" name = "conditions">&nbsp; By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy.
     </label>
 </div>
 
 <input type = "submit" name = "submit" value = "Sign Up" class = "btn btn-success">
  
-</form>
+</form></center>
 <div class="container">
 
 <hr>

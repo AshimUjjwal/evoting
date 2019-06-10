@@ -48,23 +48,24 @@
 		 <head>
 		 
 		 <title> || CHANGE PASSWORD || </title>
-		 <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.min.css">
+		 <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.css">
 		 
 		 </head>
 		 
 		 <body>
+		 <script src = "js/bootstrap.js" type = "text/javascript"></script>  
 		 <a href="logout.php" class="btn btn-danger pull-right" pull-right>Log Out</a>
 		 
 		 
          <a href="profile.php" target="_self">
 		 <center><img src="image/header1.jpg" alt="" width="770" height="210" title="Profile"></center></a>
-         <script src = "js/bootstrap.min.js" type = "text/javascript"></script>  
+         
 	     <ul align="middle">
 		 <a href='profile.php'> ||  Profile  || </a>
 		 </ul>
-		<body>
+		
 	   
-	<form method = "post" action = "changepassword.php">
+	<center><form method = "post" action = "changepassword.php">
 	   
 	   <div class="form-group">
 
@@ -87,7 +88,7 @@
 	   <input type = "submit" name = "savepass" value = "Save Changes" class = "btn btn-success">
 	   
 	   
-	   </form>
+	   </form></center>
 
 	   
 	   

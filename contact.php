@@ -40,17 +40,14 @@
 
 <head>
 
-<link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.min.css">
+<link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.css">
 
     <title>|| CONTACT ||</title>
 
  </head>
        
      <body>
-   
-     
-     
-             
+	 <script src = "js/bootstrap.js" type = "text/javascript"></script>
 <a href= "index.php" target= "_self" alt= "vote" title= "Home">
 <center><img src="image/header1.jpg" alt="evoting" width="770" height="210"></center></a>
                     
@@ -66,9 +63,9 @@
 	
 	</ul>	
     <p style="text-align:center; color:#FF0000;"><strong><marquee  behavior="scroll">THIS REGISTRATION FORM IS FOR ELIGIBLE INDIAN WHO ARE ABOVE 18 YEARS OF AGE. </marquee></strong></p>
-	<script src = "js/bootstrap.min.js" type = "text/javascript"></script>
+	
              
-<form name="sentMessage" id="contactForm" method= "post" autocomplete="on" action="contact.php">
+<center><form name="sentMessage" id="contactForm" method= "post" autocomplete="on" action="contact.php">
 
 <div class="form-group">
 
@@ -88,7 +85,7 @@
 <textarea name="message" class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
 </div>                                                       
 <input type="submit" name= "submit" value = "Send Message" class= "btn btn-success">
-</form>
+</form></center>
        
 
 

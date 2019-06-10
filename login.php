@@ -59,7 +59,7 @@
 
  <head>
 
- <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.min.css">
+ <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.css">
  
  <script src="https://www.google.com/recaptcha/api.js?render=6LfphZYUAAAAAHuw9ZHnzGyWOmICTUUhP_7p-fQ6"></script>
 
@@ -69,7 +69,7 @@
 
  <body>
 
- <script src = "js/bootstrap.min.js" type = "text/javascript"></script>
+ <script src = "js/bootstrapjs" type = "text/javascript"></script>
 
  <a href= "index.php" target= "_self" alt= "vote" title= "Home">
  <center><img src="image/header1.jpg" alt="evoting" width="770" height="210" align="middle"></center></a>
@@ -87,7 +87,7 @@
 
     <p style="text-align:center; color:#FF0000;"><strong><marquee  behavior="scroll">THIS REGISTRATION FORM IS FOR ELIGIBLE INDIAN WHO ARE ABOVE 18 YEARS OF AGE. </marquee></strong></p>
 	<script src = "js/bootstrap.min.js" type = "text/javascript"></script>
-	<form method="post" action="login.php">          
+	<center><form method="post" action="login.php">          
  
  <div class="form-group">
  
@@ -116,7 +116,7 @@
 
 
 <input type = "submit" name = "submit" value = "Sign In" class = "btn btn-success">
- </form>
+ </form></center>
  <script>
   grecaptcha.ready(function() {
       grecaptcha.execute('6LfphZYUAAAAAHuw9ZHnzGyWOmICTUUhP_7p-fQ6', {action: 'homepage'})
