@@ -23,13 +23,13 @@
 	 
 	 
 	 <ul>
-          <a href="index.php"> |  Home  |</a>
+          <a href="index.php"> |  Home  | </a>
 		
-		 <a href="profile.php"> |  Profile  |</a>
+		  <a href="profile.php"> |  Profile  | </a>
 	
-		  <a href="leader.php" >|  Vote Now  |</a>
+		  <a href="leader.php" > |  Vote Now  | </a>
 		
-		  <a href="contact.php">|  Contact Us  |</a>
+		  
 	 </ul>
     
 	<p style="text-align:center; color:#FF0000;"><strong><marquee  behavior="scroll">

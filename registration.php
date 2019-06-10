@@ -122,7 +122,7 @@
  <body>
 
  <a href= "index.php" target= "_self" alt= "vote" title= "Home">
- <img src="image/header1.jpg" alt="evoting" width="770" height="210" align = "middle" title = Home></a>
+ <center><img src="image/header1.jpg" alt="evoting"  title="Home"></center></a>
 
 	<ul align = "center">
 		  <a href="index.php"> |  Home  |</a>

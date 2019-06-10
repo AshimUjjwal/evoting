@@ -57,9 +57,9 @@
 		 
 		 
          <a href="profile.php" target="_self">
-		 <img src="image/header1.jpg" alt="" width="770" height="210" title="Profile"></a>
+		 <center><img src="image/header1.jpg" alt="" width="770" height="210" title="Profile"></center></a>
          <script src = "js/bootstrap.min.js" type = "text/javascript"></script>  
-	     <ul>
+	     <ul align="middle">
 		 <a href='profile.php'> ||  Profile  || </a>
 		 </ul>
 		<body>

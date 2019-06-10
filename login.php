@@ -72,7 +72,7 @@
  <script src = "js/bootstrap.min.js" type = "text/javascript"></script>
 
  <a href= "index.php" target= "_self" alt= "vote" title= "Home">
- <img src="image/header1.jpg" alt="evoting" width="770" height="210" align="middle"></a>
+ <center><img src="image/header1.jpg" alt="evoting" width="770" height="210" align="middle"></center></a>
 
 	<ul align = "center">
 		  <a href="index.php"> |  Home  |</a>

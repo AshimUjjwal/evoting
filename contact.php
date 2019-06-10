@@ -52,7 +52,7 @@
      
              
 <a href= "index.php" target= "_self" alt= "vote" title= "Home">
-<img src="image/header1.jpg" alt="evoting" width="770" height="210"></a>
+<center><img src="image/header1.jpg" alt="evoting" width="770" height="210"></center></a>
                     
                     <ul align="center">
         <a href="index.php"> |  Home  |</a>

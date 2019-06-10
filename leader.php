@@ -79,7 +79,7 @@ th, td
 
 </head>
 
-<body align=center>
+<body align="center">
 
 <a href = "changepassword.php" style="float:right; padding:5px; margin-right:20px; background-color:silver; color:black; text-decoration:none">Change Password</a><br><br>
 
@@ -108,7 +108,7 @@ th, td
          <table style= "width:70%;margin-left:15%">
             <tr>
               
-			  <th>LOGO<th>
+			  <th>IMAGE<th>
 			  <th>CANDIDATE NAME</th>
               <th>PARTY</th>
 			  <th>VOTE NOW</th>
