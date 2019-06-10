@@ -29,7 +29,7 @@
 	  
 	     if(md5($password) !==  $retrievepassword['password'])
 	       {
-		    echo "<script>alert('Password does not match')</script>";  
+		    echo "<script>alert('Password is incorrect')</script>";  
 		   }
 	       else
 		
@@ -48,7 +48,7 @@
 	  
 	   else
 	    {
-		echo "<script>alert('Email does not match.')</script>";
+		echo "<script>alert('Wrong E-mail Address.')</script>";
 		
         }
 	}

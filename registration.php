@@ -113,6 +113,7 @@
 
   
  <link rel = "stylesheet"  type = "text/css" href = "css/bootstrap.min.css">
+ <script src="https://www.google.com/recaptcha/api.js?render=6LfphZYUAAAAAHuw9ZHnzGyWOmICTUUhP_7p-fQ6"></script>
 
  <title>|| SIGN UP ||</title>
 
