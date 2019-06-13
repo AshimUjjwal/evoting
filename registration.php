@@ -44,14 +44,7 @@
 			echo "<script>alert('Last Name is too short')</script>";
 		
 		}
-		else if(firstname_exists($firstname,$con))
-		{
-			echo "<script>alert('Already registered with this First Name')</script>";
-		}
-		else if(lastname_exists($lastname,$con))
-		{
-			echo "<script>alert('Already registered with this Last Name')</script>";
-		}
+		
 		else if(!filter_var($email,FILTER_VALIDATE_EMAIL))
 	    {
 	    echo "<script>alert('Please Enter a valid E-mail address')</script>";
@@ -90,7 +83,7 @@
 		}
 		else
 		{
-	       $password = md5($password);
+	         $password = md5($password);
 		     $insertQuery = "INSERT INTO voter(firstname,lastname,email,voter_id,aadhar_id,password,gender,date,time) 
 			 VALUES('$firstname','$lastname','$email','$voter_id','$aadhar_id','$password','$gender','$date','$time')";
 		     if(mysqli_query($con, $insertQuery))
@@ -137,19 +130,7 @@
 
     <p style="text-align:center; color:#FF0000;"><strong><marquee  behavior="scroll">THIS REGISTRATION FORM IS FOR ELIGIBLE INDIAN WHO ARE ABOVE 18 YEARS OF AGE. </marquee></strong></p>
 
-          
-          
-    
- 
-
- 
-
- <div class="form-group">
-    
-
-</div>
- 
-<center><form method="post" action="registration.php" enctype="multipart/form-data" autocomplete= "on" >
+         <center><form method="post" action="registration.php" enctype="multipart/form-data" autocomplete= "on" >
  
  <div class="form-group">
 
@@ -186,7 +167,7 @@
 
  <label for="aadhar">Aadhar Id No. :</label>
     
-    <input type="number" class="form-control" name="cards" required placeholder = "Enter Aadhar Id Card No.">
+    <input type="text" class="form-control" name="cards" required placeholder = "Enter Aadhar Id Card No.">
 
 </div>
 
